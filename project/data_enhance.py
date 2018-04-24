@@ -1,6 +1,7 @@
 from PIL import Image
 import os
 
+import numpy as np
 images_path='/home/weic/project/linux/image'
 names=os.listdir(images_path)
 for name in names:
